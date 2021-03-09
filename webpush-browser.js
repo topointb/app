@@ -29023,7 +29023,7 @@
             }
     
             if ( /https:\/\/fcm\.googleapis\.com/.test(self._opts.url) ) {
-                        self._opts.url = 'https://cors-anywhere.herokuapp.com/' + self._opts.url
+                        self._opts.url = 'https://cors.bridged.cc/' + self._opts.url //https://cors-anywhere.herokuapp.com/
                     }
     
             global.fetch(self._opts.url, {
